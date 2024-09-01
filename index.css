@@ -1,0 +1,106 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#desc-popup {
+    display: none;
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    padding: 50px;
+}
+
+.hero {
+    background-color: rgb(110, 70, 150);
+}
+/* 
+.hero-head {
+    position: fixed;
+    background-color: rgb(110, 70, 150);
+    z-index: 2000;
+} */
+/* 
+.hero-head .navbar{
+    position: fixed;
+    z-index: 2000;
+    background-color: rgb(110, 70, 150);
+}
+
+.hero-head .container {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background-color: rgb(110, 70, 150);
+} */
+
+#scrollable-container {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    justify-items: center;
+    height: 300px
+}
+
+.scrollable-month-container {
+    display: grid;
+    grid-template-columns: repeat(60, 100px);
+}
+
+.scrollable-item-container {
+    display: grid;
+    grid-template-columns: repeat(60, 100px);
+}
+
+.scrollable-item {
+    height: 30px; /* Set the height for each item */
+    background-color: #3273dc; /* Background color */
+    color: #fff; /* Text color */
+    padding-left: 10px;
+    text-align: start; /* Center text horizontally */
+    line-height: 35px; /* Center text vertically */
+    border-radius: 5px; /* Optional: rounded corners */
+}
+
+.scrollable-item:hover {
+    box-shadow: 0px 0px 8px #b2b2b2;
+}
+
+.scrollable-item-month {
+    width: 100px; /* Set the width for each item */
+    height: 50px; /* Set the height for each item */
+    color: #fff; /* Text color */
+    text-align: center; /* Center text horizontally */
+    line-height: 50px; /* Center text vertically */
+}
+
+.has-background-skyblue {
+    background-color: #46AAF2;
+}
+
+.has-background-blue {
+    background-color: #4F46F2;
+}
+
+.has-background-blueberry {
+    background-color: #4F74F2;
+}
+
+.has-background-lightblue {
+    background-color: #46E1F2;
+}
+
+.has-background-purple {
+    background-color: #8746F2;
+}
+
+.has-background-cottonblue {
+    background-color: #7998ee;
+}
+
+ul {
+    list-style: circle;
+    list-style-type: disc;
+}

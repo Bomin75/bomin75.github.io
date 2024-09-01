@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <link rel="stylesheet" href="index.css" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+  </head>
+  <body>
+    <section class="hero">
+      <!-- Hero head: will stick at the top -->
+      <div class="hero-head">
+        <header class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item">
+                <h1 class="title">Bomin's Portfolio</h1>
+              </a>
+              <span class="navbar-burger" data-target="navbarMenuHeroC">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <div id="navbarMenuHeroC" class="navbar-menu">
+              <div class="navbar-end">
+                <a class="navbar-item on-home"> About Me </a>
+                <a class="navbar-item on-home"> Projects </a>
+                <a class="navbar-item on-home"> Education & Experience </a>
+                <a class="navbar-item on-home"> Get In Touch </a>
+                <a class="navbar-item" href="notes.html"> Notes </a>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+
+      <!-- Hero content: will be in the middle -->
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title" style="display: inline-block">
+            👋 Hello, I'm <strong>Bomin</strong>,
+          </h1>
+          <h1 class="title">a <strong id="occupation"></strong></h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="section">
+      <div class="container">
+        <h2 class="title">About Me</h2>
+        <div class="content">
+          <p>
+            I am Bomin, a 2nd year <strong>Computer Science</strong> and
+            <strong>Biology</strong> student at University of Toronto
+            Scarborough. My passion lies at <strong>bioinformatics</strong>,
+            which is the intersection of these two disciplines. I enjoy learning
+            different data structures, simulating molecular dynamics, coding
+            pipelines, and thinking about abstract math concepts.
+          </p>
+          <p>
+            Outside of my studies, I have a few other interests. I find it
+            fascinating to read about new developments in
+            <strong>science and technology</strong>, which expand my scientific
+            imagination. My main interests include -omics, microbiomes, and
+            AI/ML, though I occasionally get drawn into astrophysics as well.
+            Additionally, I love playing <strong>badminton</strong>. My goal is
+            to master a powerful smash and improve my defensive skills.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="title">Projects</h2>
+        <div class="columns is-multiline">
+          <div class="column is-one-third">
+            <div class="box">
+              <figure class="image is-16by9">
+                <img src="src/DNA.jpg" alt="RNA-seq Pipeline" />
+              </figure>
+              <h3 class="subtitle">RNA-seq Pipeline</h3>
+              <p style="margin-bottom: 30px">
+                Constructed a data preprocssing pipeline for RNA-seq analysis
+                using linux shell scripting language. This pipeline lets us
+                promptly obtain the counts file from FASTQ file with quality
+                control. The counts file generated is useful for RNA-seq studies
+                such as differential gene expression analysis.
+              </p>
+              <button
+                onclick="location.href='https://github.com/Bomin75/RNA-seq-pipeline'"
+                class="button"
+              >
+                <span class="icon">
+                  <i class="fab fa-github"></i>
+                </span>
+                <span>GitHub</span>
+              </button>
+            </div>
+          </div>
+          <div class="column is-one-third">
+            <div class="box">
+              <figure class="image is-1by1">
+                <img src="src/ic_launcher_foreground.webp" alt="taam-logo" />
+              </figure>
+              <h3 class="subtitle">Toronto Asian Arts Museum App</h3>
+              <p style="margin-bottom: 30px">
+                Developed an app for the Toronto Asian Arts Museum (TAAM)
+                featuring the collections for customers and allowing effortless
+                data management for administrators, as part of the project for
+                course CSCB07. Easy-to-use interface targets users with a wide
+                range of digital literacy.
+              </p>
+              <button
+                onclick="location.href='https://github.com/nnhphong/CSCB07-TAAM-Collection-Management'"
+                class="button"
+              >
+                <span class="icon">
+                  <i class="fab fa-github"></i>
+                </span>
+                <span>GitHub</span>
+              </button>
+            </div>
+          </div>
+          <div class="column is-one-third">
+            <div class="box">
+              <figure class="image is-16by9">
+                <img src="src/CSCB20-home.png" alt="CSCB20 Course Website" />
+              </figure>
+              <h3 class="subtitle">CSCB20 Course Website</h3>
+              <p style="margin-bottom: 30px">
+                Designed a course website that allows the students and the
+                instructors to communicate in one place, as a part of the
+                project for course CSCB20. This website provides the students
+                with comprehensive access point to the course materials and
+                offers straightforward grade management for the instructors.
+              </p>
+              <button
+                onclick="location.href='https://github.com/nnhphong/CSCB20-Project'"
+                class="button"
+              >
+                <span class="icon">
+                  <i class="fab fa-github"></i>
+                </span>
+                <span>GitHub</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="title">Education & Experience</h2>
+        <div id="scrollable-container">
+          <div class="scrollable-month-container">
+            <div class="scrollable-item-month">Jan 2023</div>
+            <div class="scrollable-item-month">Feb 2023</div>
+            <div class="scrollable-item-month">Mar 2023</div>
+            <div class="scrollable-item-month">Apr 2023</div>
+            <div class="scrollable-item-month">May 2023</div>
+            <div class="scrollable-item-month">Jun 2023</div>
+            <div class="scrollable-item-month">Jul 2023</div>
+            <div class="scrollable-item-month">Aug 2023</div>
+            <div class="scrollable-item-month">Sep 2023</div>
+            <div class="scrollable-item-month">Oct 2023</div>
+            <div class="scrollable-item-month">Nov 2023</div>
+            <div class="scrollable-item-month">Dec 2023</div>
+            <div class="scrollable-item-month">Jan 2024</div>
+            <div class="scrollable-item-month">Feb 2024</div>
+            <div class="scrollable-item-month">Mar 2024</div>
+            <div class="scrollable-item-month">Apr 2024</div>
+            <div class="scrollable-item-month">May 2024</div>
+            <div class="scrollable-item-month">Jun 2024</div>
+            <div class="scrollable-item-month">Jul 2024</div>
+            <div class="scrollable-item-month">Aug 2024</div>
+            <div class="scrollable-item-month">Sep 2024</div>
+            <div class="scrollable-item-month">Oct 2024</div>
+            <div class="scrollable-item-month">Nov 2024</div>
+            <div class="scrollable-item-month">Dec 2024</div>
+            <div class="scrollable-item-month">Jan 2025</div>
+            <div class="scrollable-item-month">Feb 2025</div>
+            <div class="scrollable-item-month">Mar 2025</div>
+            <div class="scrollable-item-month">Apr 2025</div>
+            <div class="scrollable-item-month">May 2025</div>
+            <div class="scrollable-item-month">Jun 2025</div>
+            <div class="scrollable-item-month">Jul 2025</div>
+            <div class="scrollable-item-month">Aug 2025</div>
+            <div class="scrollable-item-month">Sep 2025</div>
+            <div class="scrollable-item-month">Oct 2025</div>
+            <div class="scrollable-item-month">Nov 2025</div>
+            <div class="scrollable-item-month">Dec 2025</div>
+            <div class="scrollable-item-month">Jan 2026</div>
+            <div class="scrollable-item-month">Feb 2026</div>
+            <div class="scrollable-item-month">Mar 2026</div>
+            <div class="scrollable-item-month">Apr 2026</div>
+            <div class="scrollable-item-month">May 2026</div>
+            <div class="scrollable-item-month">Jun 2026</div>
+            <div class="scrollable-item-month">Jul 2026</div>
+            <div class="scrollable-item-month">Aug 2026</div>
+            <div class="scrollable-item-month">Sep 2026</div>
+            <div class="scrollable-item-month">Oct 2026</div>
+            <div class="scrollable-item-month">Nov 2026</div>
+            <div class="scrollable-item-month">Dec 2026</div>
+            <div class="scrollable-item-month">Jan 2027</div>
+            <div class="scrollable-item-month">Feb 2027</div>
+            <div class="scrollable-item-month">Mar 2027</div>
+            <div class="scrollable-item-month">Apr 2027</div>
+            <div class="scrollable-item-month">May 2027</div>
+            <div class="scrollable-item-month">Jun 2027</div>
+            <div class="scrollable-item-month">Jul 2027</div>
+            <div class="scrollable-item-month">Aug 2027</div>
+            <div class="scrollable-item-month">Sep 2027</div>
+            <div class="scrollable-item-month">Oct 2027</div>
+            <div class="scrollable-item-month">Nov 2027</div>
+            <div class="scrollable-item-month">Dec 2027</div>
+          </div>
+          <div class="scrollable-item-container">
+            <div
+              class="scrollable-item has-background-blueberryblue"
+              style="grid-column: 1 / 7"
+              id="loretto-abbey"
+            >
+              Loretto Abbey Catholic Secondary School
+            </div>
+            <div
+              class="scrollable-item has-background-cottonblue"
+              style="grid-column: 7 / 9"
+              id="tutoring1"
+            >
+              Tutoring
+            </div>
+            <div
+              class="scrollable-item has-background-purple"
+              style="grid-column: 9 / 55"
+              id="cs-utsc"
+            >
+              Computer Science Specialist @ University of Toronto Scarborough
+            </div>
+            <div
+              class="scrollable-item has-background-skyblue"
+              style="grid-column: 17 / 21"
+              id="create-utsc"
+            >
+              Front-End Developer @ C.R.E.A.T.E. UofT
+            </div>
+            <div
+              class="scrollable-item has-background-purple"
+              style="grid-column: 21 / 55"
+              id="bio-utsc"
+            >
+              Molecular Biology Major @ University of Toronto Scarborough
+            </div>
+            <div
+              class="scrollable-item has-background-cottonblue"
+              style="grid-column: 17 / 18"
+              id="tutoring2"
+            >
+              Tutoring
+            </div>
+            <div
+              class="scrollable-item has-background-blue"
+              style="grid-column: 18 / 25"
+              id="research-sickkids"
+            >
+              Research Assistant @ Sickkids Hospital (Pomès Lab)
+            </div>
+            <div
+              class="scrollable-item has-background-skyblue"
+              style="grid-column: 19 / 31"
+              id="uoftapp-utsg"
+            >
+              Vice President @ UofT Alt Protein Project (Funded by GFI)
+            </div>
+            <div
+              class="scrollable-item has-background-skyblue"
+              style="grid-column: 20 / 31"
+              id="ds3-utsc"
+            >
+              Social Media Manager @ Data Science & Statistics Society
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="notification is-link is-light" id="desc-popup">
+      <button class="delete"></button>
+      <div id="desc-content">
+        <h1 id="desc-title" class="title">Title</h1>
+        <p id="desc-summary" class="subtitle">Summary</p>
+        <ul id="desc-detail"></ul>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="section">
+      <div class="container">
+        <h2 class="title">Get In Touch</h2>
+        <div class="content">
+          <p>
+            If you'd like to connect, feel free to reach out via email or
+            LinkedIn.
+          </p>
+          <ul>
+            <li>
+              Email:
+              <a href="mailto:your-email@example.com"
+                >bominw.kim@mail.utoronto.ca</a
+              >
+            </li>
+            <li>
+              LinkedIn:
+              <a href="https://www.linkedin.com/in/your-profile"
+                >linkedin.com/in/bomin75</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer is-dark">
+      <div class="content has-text-centered">
+        <p><strong>Bomin's Portfolio</strong> by Bomin.</p>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
