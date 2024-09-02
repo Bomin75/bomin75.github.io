@@ -1,0 +1,3 @@
+[submodule "notes/themes/ananke"]
+	path = notes/themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
