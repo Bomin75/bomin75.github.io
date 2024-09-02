@@ -26,7 +26,7 @@ const content = {"loretto-abbey": {"title": "Loretto Abbey CSS", "summary": "Tor
                     "Solidified student's understanding on the course material and clarified confusions resulting in the increase of the student's grade from mid 80s to high 90s "]},
                 "cs-utsc": {"title": "Computer Science SWE Specialist @ UTSC", "summary": "Scarborough, ON, CA<br />GPA: 4.0/4.0",
                     "detail": ["Received the University of Toronto International Scholar Award ($180K)", "Recognized as a University of Toronto Scholar ($7.5K)",
-                        "Relevant Coursework: CSCA08 (A+), CSCA48 (A+), MATA31 (A+), MATA37 (A+), MATA22 (A+), MATB24 (A), CSCB07 (On going), CSCB09 (On going)"
+                        "Relevant Coursework: CSCA08 (A+), CSCA48 (A+), MATA31 (A+), MATA37 (A+), MATA22 (A+), MATB24 (A), CSCB07 (Ongoing), CSCB09 (Ongoing)"
                     ]},
                 "create-utsc": {"title": "Front-End Developer @ C.R.E.A.T.E. UofT", "summary": "Scarborough, ON, CA",
                     "detail": ["Designed visually appealing and user-friendly UI with Figma", "Displayed data restored from the database on the website using React"]},
@@ -34,7 +34,7 @@ const content = {"loretto-abbey": {"title": "Loretto Abbey CSS", "summary": "Tor
                     "Designed a personalized lesson plan resulting in the increase of the student's grades from high 40s to high 70s"]},
                 "bio-utsc": {"title": "Molecular Biology Major @ UTSC", "summary": "Scarborough, ON, CA<br />GPA: 4.0/4.0",
                     "detail": ["Received the University of Toronto International Scholar Award ($180K)", "Recognized as a University of Toronto Scholar ($7.5K)",
-                        "Relevant Coursework: BIOA01 (On going), BIOA02 (On going)"
+                        "Relevant Coursework: BIOA01 (Ongoing), BIOA02 (Ongoing)"
                     ]},
                 "research-sickkids": {"title": "Research Assistant @ Sickkids Hospital", "summary": "Toronto, ON, CA<br />Pomès Lab",
                     "detail": ["Prepared and ran molecular dynamics simulations of polypeptides that form ɑ-helices",
